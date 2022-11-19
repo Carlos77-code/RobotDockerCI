@@ -1,0 +1,33 @@
+## Criar o build da imagem
+Exemplo: 
+        docker build -t run_robot ./docker_images
+        docker build -t run_robot .
+
+## Consultar as imagens do seu Docker
+Exemplo:
+        docker images
+
+## Remover uma imagem criada
+Exemplo:
+        docker rmi run_robot
+
+
+## Rodar os testes do Robot dentro do container
+Exemplo: 
+        docker run --rm --name execucao_robot -v "D:\carlo\QA\Project\RobotFramework\Automacao-ci\test\suite":/test/suite -v "D:\carlo\QA\Project\RobotFramework\Automacao-ci\test\logs":/test/logs run_robot
+
+## Subir o chrome
+Exemplo:        Desenvolvedor Chrome:
+        docker run --rm -it -p 4444:4444 -p 7900:7900 --shm-size 2g selenium/standalone-chrome:dev
+
+## Subir o firefox
+Exemplo:        Desenvolvedor Firefox:
+        docker run --rm -it -p 4444:4444 -p 7900:7900 --shm-size 2g selenium/standalone-firefox:dev
+
+## Aponte seus testes do WebDriver para http://localhost:4444   (se tiver rodando com dois container use o IP da sua máquina)
+Exemplo:
+        http://192.168.1.7:4444
+
+## (Opcional) Para ver o que está acontecendo dentro do contêiner, acesse http://localhost:7900 (a senha é secret).
+Exemplo:
+        http://192.168.1.7:7900
