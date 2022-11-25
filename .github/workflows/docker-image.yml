@@ -16,9 +16,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: Step 1 Instalação RobotDockerCI
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-      
-    - name: Step 2 verificar versão
-      run: 
-          robot --version
-          python --version
           
