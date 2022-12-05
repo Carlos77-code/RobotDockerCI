@@ -13,3 +13,4 @@ Suite Teardown     Fechar o navegador
 Caso de Teste 01: Validar Home Page
     [Tags]            Home_page
     Validar "titulo" da home page
+    Pesquisar por "Geladeira"

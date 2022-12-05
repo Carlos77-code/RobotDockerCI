@@ -3,7 +3,7 @@ Documentation            Aqui estão mapeados os objetos em variaveis da homepag
 
 
 *** Variables ***
-# ${URL_DOCKER}               http://localhost:4444
 ${URL_HOME_PAGE}            https://www.magazineluiza.com.br/
 ${BROWSER}                  chrome
 ${HOME_TITLE}               Magazine Luiza | Pra você é Magalu!
+${GELADEIRA}                Geladeira Brastemp Frost Free Inverse 443 litros cor Inox com Turbo Ice - BRE57AK

@@ -11,7 +11,6 @@ Exemplo:
 Exemplo:
         docker rmi run_robot
 
-
 ## Rodar os testes do Robot dentro do container
 Exemplo: 
         docker run --rm --name execucao_robot -v "D:\carlo\QA\Project\RobotFramework\Automacao-ci\test\suite":/test/suite -v "D:\carlo\QA\Project\RobotFramework\Automacao-ci\test\logs":/test/logs run_robot
