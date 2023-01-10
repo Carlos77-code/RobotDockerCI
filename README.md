@@ -1,4 +1,4 @@
-##  Este projeto tem como objetivo, realizar a validação de todo o ambiente do sistema Mazdra   ##
+##  Este projeto tem como objetivo, realizar a validação de todo o ambiente do sistema   ##
 
 ##  Incluido os arquivos Dockerfile e .gitlab-ci.yml    ##
 ##  Está sendo utilizada a Librarie:
