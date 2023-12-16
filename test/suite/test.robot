@@ -11,6 +11,7 @@ Suite Teardown     Fechar o navegador
 
 *** Test Cases ***
 Caso de Teste 01: Validar Home Page
+    [Documentation]    Este caso de teste foi criado para validar o title da page
     [Tags]            Home_page
     Validar "titulo" da home page
     Pesquisar por "Geladeira"
